@@ -201,6 +201,10 @@ img[alt="user-g"] {
         --op-value: 0.2;
 }
 
+.card:hover {
+    --op-value: 0.8;
+}
+
 .card > h2 {
     grid-area: title;
     font-size: 1.5rem;
