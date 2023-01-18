@@ -2,21 +2,22 @@
     display: grid;
     grid-template-columns: 1.5fr 5fr;
     grid-template-areas: 
-        "box1 box2"
-        "box1 box3";
+        "sidebar header"
+        "sidebar content";
 }
 
-.box1 {
-    background-color: blueviolet;
-    grid-area: box1;
+.container > * {
+    border: 1px solid black;
 }
 
-.box2 {
-    background-color: blue;
-    grid-area: box2;
+.header {
+    grid-area: header;
 }
 
-.box3 {
-    background-color: seagreen;
-    grid-area: box3;
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
 }
