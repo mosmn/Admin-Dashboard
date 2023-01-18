@@ -82,9 +82,9 @@
 .actions button {
     cursor: pointer;
     width: 100px;
-    height: 50px;
+    height: 60px;
     border: none;
-    border-radius: 50%;
+    border-radius: 30%;
     background-color: #E3B261;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -231,6 +231,7 @@ img[alt="user-g"] {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
     opacity: var(--op-value);
     z-index: -1;
     position: absolute;
@@ -251,6 +252,7 @@ img[alt="user-g"] {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
     opacity: var(--op-value);
     z-index: -1;
     position: absolute;
@@ -271,7 +273,8 @@ img[alt="user-g"] {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    border-radius: 10px;
+    opacity: var(--op-value);
     z-index: -1;
     position: absolute;
     top: 0;
@@ -291,6 +294,7 @@ img[alt="user-g"] {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
     opacity: var(--op-value);
     z-index: -1;
     position: absolute;
@@ -307,10 +311,11 @@ img[alt="user-g"] {
 
 .suf::before {
     content: "";
-    background-image: url(imgs/suf.png);
+    background-image: url(imgs/s2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
     opacity: var(--op-value);
     z-index: -1;
     position: absolute;
