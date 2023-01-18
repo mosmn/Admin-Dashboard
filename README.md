@@ -8,7 +8,12 @@ Take a look at the live demo [here](https://mosmn.github.io/Admin-Dashboard/).
 
 ## Screenshot
 
+### Wide Screen
+
 ![wide](imgs/wide.png)
+
+### Narrow Screen
+
 ![narrow](imgs/narrow.png)
 
 ## Technologies Used
